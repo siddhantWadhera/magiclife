@@ -1,0 +1,7 @@
+{
+	"host_map": [
+		"$.magiclife.com => www.magiclife.com",
+		"$.magiclife.com => magiclife.com",
+		"$.booking.magiclife.com => booking.magiclife.com"
+	]
+}
