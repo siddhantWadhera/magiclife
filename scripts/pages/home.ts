@@ -7,8 +7,31 @@
 $('./body') {
 	$('./div[@id="wrapper"]'){
 		$('.//div[@id="main"]'){
+			$('.//div[@id="content"]'){
+				remove()  #temporary removed.
+			}
 			$('./div[@class="main-holder"]'){
 				$('./div[@id="sidebar"]'){
+					## the club finder div 
+					$('./div[@id="c12248"]'){
+						$('.//div[@class="box-form"]'){
+							add_class('ui-inline')
+							$('./ul'){
+								$('.//br'){
+									remove()
+								}
+							}
+							$('.//div[@id="tab-2"]'){
+								$('.//form[@class="box-form"]'){
+									
+								
+								}
+								
+							}
+					
+						}
+					}
+					
 					$('./div[@id="c12316"]'){
 						$('./div[@class="links-block"]'){
 							attribute("data-ur-set", "toggler")

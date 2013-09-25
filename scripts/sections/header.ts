@@ -98,25 +98,5 @@
 				
 			}
 		}
-		
-		$('.//div[@id="main"]'){
-			$('.//div[@id="content"]'){
-				remove()  #temporary removed.
-			}
-			$('.//div[@class="box-form"]'){
-				add_class('ui-inline')
-				$('./ul'){
-					$('.//br'){
-						remove()
-					}
-				}
-				
-			}	
-		
-		}
 	}
-	
-	
-		
-	
 }

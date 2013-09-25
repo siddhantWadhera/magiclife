@@ -3,6 +3,91 @@
 #main{
 	.main-holder{
 		#sidebar{
+			margin-top:40px;
+			background:#f4e9d5;
+			.box-form{
+				li{
+					display: inline;
+					padding-left:$spacing;
+					
+					a{
+						font-size : $h2_size;
+					}
+				}
+				#tab-2 form {
+					#mySelectText0{
+						display:none;
+					}
+					.field{
+						padding: 7px 0 11px;
+						width: 100%;
+						overflow: hidden;
+						.quarter-col{
+							float: left;
+							margin-right: 40px;
+							width: 58px;
+							font-weight:bold;
+						
+						}
+						.third-col{
+							width: 87px;
+							margin: 0 0 0 5px;
+							float: left;
+							.summer{
+								background: image-url("icons-season.GIF") 0 0 no-repeat;
+								padding: 0 0 0 16px;
+								height: 24px;
+							}
+							.winter{
+								background: image-url("icons-season.GIF") 0 -24px no-repeat;
+								padding: 0 0 0 16px;
+								height: 24px;
+							}
+						}
+						.label-2{
+							font-weight:bold;
+						}
+						.row{
+							.btn-submit{
+								@include button
+							}
+						}
+					
+					}
+					.row .half-col{
+						width: 130px;
+						float: left;
+						.row{
+							width: 100%;
+							overflow: hidden;
+							margin-bottom: 3px;
+						}
+						input[type="checkbox"]{
+							float: left;
+							width: auto
+						}
+						.highlights{
+							line-height: 26px;
+							height: 26px;
+							padding: 0;
+							margin: 0;
+							float: left;
+							width: auto;
+							
+							img{
+								position: relative;
+								float: left;
+								height: 26px;
+							}
+						}	
+							
+					}
+					.row .half-col:first-child{
+						margin:0;
+					}
+				}	
+			
+			}
 			.links-block{
 				margin-top: 20px;
 				.bodytext{
@@ -148,6 +233,7 @@
 			
 			}
 		}
+		
 	
 	}
 
