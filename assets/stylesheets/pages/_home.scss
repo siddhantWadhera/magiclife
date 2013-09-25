@@ -30,9 +30,10 @@
 						
 						}
 						.third-col{
-							width: 87px;
+							width: auto;
 							margin: 0 0 0 5px;
 							float: left;
+							min-width: 90px;
 							.summer{
 								background: image-url("season.gif") 0 0 no-repeat;
 								padding: 0 0 0 16px;
