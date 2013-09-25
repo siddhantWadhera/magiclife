@@ -3,9 +3,9 @@
 #main{
 	.main-holder{
 		#sidebar{
-			margin-top:40px;
-			background:#f4e9d5;
-			.box-form{
+			.ui-inline{
+				margin-top:40px;
+				background:#f4e9d5;
 				li{
 					display: inline;
 					padding-left:$spacing;
@@ -14,6 +14,9 @@
 						font-size : $h2_size;
 					}
 				}
+			}
+			.box-form{
+				
 				#tab-2 form {
 					#mySelectText0{
 						display:none;
