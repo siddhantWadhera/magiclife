@@ -1,3 +1,228 @@
-header._header {
-  
+#header {
+	border-left: 1px solid #5f0f02;
+	border-right: 1px solid #5f0f02;
+	border-bottom: 1px solid #5f0f02;
+	border-top: 1px solid #5f0f02;
+	border-radius: 0 0 5px 5px;
+	#headerPanel{
+		@include clearfix();
+			@include grad1;	
+		.logo{
+			margin-left: 20px;
+			a{
+				@include logo_h1;
+			}
+		}
+			
+	
+		.panel{
+			#nav-bar{
+				#nav-toggler{
+					display: block;
+					background: image-url("menu.png") no-repeat 95% center;
+					width: 60px;
+					height: 33px;
+					position: relative;
+					float: right;
+					margin: -50px 80px 0px 0px;
+				}
+				
+				ul{
+					/*float:left;
+					margin-top:-1px;
+					padding:0px;
+					width: 100%;*/
+					@include clearfix();
+					-webkit-padding-start: 0px;
+					li{
+						display: block;
+						padding: 0 6px 1px;
+						a{
+							font-size : $h2_size;
+							display: block;
+							padding: 11px 10px 10px;
+							color: #3d211a;
+							text-shadow: 1px 1px 0px white;
+							border-bottom: 1px solid #c0bca3;
+							>.arrow-indicator{
+								background: image-url("menu_go.png") no-repeat 95% center;
+								width: 9px;
+								height: 13px;
+								float:right;
+							}
+						}
+					}
+					
+					
+				
+				}
+			}
+			dl{
+				
+				/*position:relative;
+				float:right;
+				display:block;
+				display:block;
+				margin-left: 50%;*/
+				
+				position: relative;
+				float: right;
+				margin: -40px 10px 0px 0px;
+				dt{
+					position: relative;
+					float: left;
+					margin: 0px;
+					padding: 0px;
+					a{
+						background: image-url("language-select.png") no-repeat 95% center;
+						display: block;
+						width: 40px;
+						height: 21px;
+						padding: 0 9px;
+						line-height: 21px;
+					}	
+				}
+				dd {
+					/*opacity:1;
+					z-index:10;
+					position:absolute;*/
+					
+					left: 0px;
+					top: 23px;
+					position: absolute;
+					margin-left: 0px;
+					ul{
+						background: #e6e6e6 none repeat scroll 0 0;
+						display: none;
+						list-style: none;
+						border: 1px solid #000000;
+						z-index: 10000;
+						position: relative;
+						width: auto;
+						//min-width: 58px;
+						-webkit-padding-start: 0px;
+						li{
+							padding: 5px 10px 20px;
+						}
+					
+					}
+					/*ul li {
+						display:block;
+					}*/
+				}
+					
+			
+			}
+			#topbar{
+				position: relative;
+				float: left;
+				width: 100%;
+				#main-nav{
+					float: left;
+					margin: 10px 0 0 0;
+					padding: 4px 0 0;
+					font-size: 26px;
+					line-height: 30px;
+					
+					li{
+						display: inline;
+						position: relative;
+						
+						a{
+							font-size : $h2_size;
+							font-weight:bold;
+							float: left;
+							padding: 8px 12px;
+							height: 30px;
+							color: #262626;
+							text-decoration: none;
+							border-right: 1px solid #FDC400;
+							
+						}	
+					}
+				}	
+				.service-block{
+					position: relative;
+					float: right;
+					padding: 11px 0 0 24px;
+					color:#336699;
+					strong{
+						display: block;
+						font-size: 13px;
+						line-height: 14px;
+						font-weight: bold;
+					}		
+					.service-links {
+						line-height: 18px;
+						display: block;
+						font-size: 10px;
+						overflow: hidden;
+					}
+				}
+			
+			}
+			
+			.social{
+				display:none;
+				position:relative;
+				float:right;
+				margin-top:-2%;
+				#trusted_shops_top{
+						display:none;
+				}	
+				li{
+					display:inline;
+					
+				}
+				
+			
+			}
+		
+		}
+	}	
+	
+	
+}
+
+
+.breadcrumbs-block{
+	strong{
+		position:relative;
+		float:left;
+		color:$color2;
+	}
+	ul li{
+		list-style:none;
+		display:inline;
+		margin-left:2%;
+		a{
+			color:$color1;
+			text-decoration:underline;
+		}
+	}
+	
+}	
+.ui-inline{
+	margin-top:40px;
+	background:#f4e9d5;
+	li{
+		display: inline;
+		padding-left:$spacing;
+		
+		a{
+			font-size : $h2_size;
+		}
+	}
+}
+
+// hiding all  the content used in tool tip date picker etc.
+.tooltip{
+	display:none;
+}
+#ui-datepicker-div{
+	display:none;
+
+}
+#optionsDiv0,#optionsDiv1,#optionsDiv2,#optionsDiv3,#optionsDiv4,#optionsDiv5,#optionsDiv6,#optionsDiv7,#optionsDiv8,#optionsDiv9{
+	display:none;
 }

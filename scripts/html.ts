@@ -14,7 +14,7 @@ $("/html") {
   remove_html_comments()
 
   # Late load all the images on the site
-  # lateload()
+  #lateload()
   
 
 

@@ -1,0 +1,32 @@
+@mixin footer {
+ 
+  background-color: $background1;
+  border: 1px solid $color1;
+  min-height: 40px;
+  padding: 0px;
+  color: $color1;
+  text-decoration: none;
+}
+
+// gradients
+@mixin grad_base {
+  padding: $spacing;
+  font-weight: bold;
+  color: $color2;
+  
+}
+
+@mixin grad1 {
+  @include grad_base;
+  @include background($grad1);
+  //border-top: $border1;
+  padding: 0;
+}
+
+// headings
+@mixin logo_h1 {
+  font-size: $h1_size;
+  color: $color1;
+  font-weight: normal;
+  text-shadow: $text_shadow;
+}

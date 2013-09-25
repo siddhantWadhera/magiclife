@@ -10,12 +10,16 @@ html {
 }
 
 body {
-  -webkit-text-size-adjust: none;
-  background: #fff;
-  color: #333;
-  font-family: "Helvetica Neue", Helvetica, Verdana;
-  position: relative;
-  min-height: 100%;
+	-webkit-text-size-adjust: none;
+	background: #90d5f2;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Verdana;
+	position: relative;
+	min-height: 100%;
+	font-size:$font_size;
+	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 a {
@@ -36,4 +40,15 @@ input[type="number"]::-webkit-outer-spin-button {
   display: none;
 }
 
+
+ul{
+  margin: 5;
+  padding: 5;
+  li {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+
+  }
+}
 

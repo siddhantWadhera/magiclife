@@ -1,3 +1,50 @@
-footer._footer {
+#footer {
+	@include footer;
+	  width: auto;
+	  padding: 14px 10px;
+	  height: 72px;
+	  font-weight: normal;
+	  div .container-holder{
+			text-align: center;
+			#trusted_shops_bottom{
+				display:none;
+			}
+			.logo {
+					display: inline;
+				a{
+					width:154px;
+					height:53px;
+					background: image-url("tui-logo.png") no-repeat 95% center;
+					display: block;
+					text-indent:-9999px;
+					float: right;
+					
+				}
+			}	
+				
+			#label{
+				.euro-logo {
+					display: inline;
+					a{
 
-}
+						
+						width:104px;
+						height:70px;
+						background: image-url("euro-logo.gif") no-repeat 95% center;
+						display: block;
+						text-indent:-9999px;
+						
+						
+					}
+				}
+				
+			}
+			
+			#tui-copy{
+				font-weight:bold;
+			}
+			
+		
+		}
+
+}	
