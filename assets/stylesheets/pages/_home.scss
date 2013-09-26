@@ -1,6 +1,9 @@
 // Every page should have a class on the body
 // Scope that in each file at the start
 #main{
+	.home-content{
+		display:none;
+	}
 	.main-holder{
 		#sidebar{
 			.ui-inline{
@@ -159,7 +162,7 @@
 								border-bottom: 1px solid #5f0f02;
 								padding: 11px 20px 9px;
 								color: #3D211A;
-								font-size: 13px;
+								font-size: $font_size;
 								font-weight: bold;	
 									
 							}

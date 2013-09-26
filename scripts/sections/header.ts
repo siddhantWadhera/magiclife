@@ -40,6 +40,16 @@
 						}
 						
 						move_here('../.././/div[@id="topbar"]','bottom'){
+							$('./ul[@id="main-nav"]'){
+								$('./li[position()=2]'){
+								
+									$('./a'){
+										attribute("href", "en/concept/thats-magic-life.html")
+									}
+								}
+								
+							
+							}
 							$('.//div[@class="drop"]'){
 								
 								remove()
@@ -90,13 +100,13 @@
 			
 			}
 			
-			$('./div[@class="holder"]'){
-				$('./div[@id="topbar"]'){
+			#$('./div[@class="holder"]'){
+			#	$('./div[@id="topbar"]'){
 					
 				
-				}
+				#}
 				
-			}
+			#}
 		}
 	}
 }

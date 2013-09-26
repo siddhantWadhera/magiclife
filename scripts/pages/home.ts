@@ -8,7 +8,8 @@ $('./body') {
 	$('./div[@id="wrapper"]'){
 		$('.//div[@id="main"]'){
 			$('.//div[@id="content"]'){
-				remove()  #temporary removed.
+				#remove()  #temporary removed.
+				add_class('home-content')
 			}
 			$('./div[@class="main-holder"]'){
 				$('./div[@id="sidebar"]'){

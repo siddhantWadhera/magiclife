@@ -25,7 +25,21 @@ match($status) {
 	  with(/en/) {
         log("------------> Importing pages/home.ts in mappings.ts")
         @import pages/home.ts
+		 match($path) {
+			with(/cluboverview/){
+				@import pages/cluboverview.ts
+				log("------------> Importing pages/cluboverview.ts in mappings.ts")
+			
+			}
+			with(/info-service/){
+				@import pages/info-service.ts
+				log("------------> Importing pages/info-service.ts in mappings.ts")
+			
+			}
+		 }
       }
+	  
+		
       else() {
         log("--> No page match in mappings.ts")
       }
