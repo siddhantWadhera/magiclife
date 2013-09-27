@@ -42,22 +42,20 @@
 						move_here('../.././/div[@id="topbar"]','bottom'){
 							$('./ul[@id="main-nav"]'){
 								$('./li[position()=2]'){
-								
 									$('./a'){
 										attribute("href", "en/concept/thats-magic-life.html")
 									}
 								}
-								
+								$('./li'){
+									$('.//div[@class="drop"]'){
+										remove()
+									}
+									$('.//div[@class="drop drop-default"]'){
+										remove()
+									}
+								}
+							}
 							
-							}
-							$('.//div[@class="drop"]'){
-								
-								remove()
-							}
-							$('.//div[@class="drop drop-default"]'){
-								
-								remove()
-							}
 						}
 						$('./strong'){
 							remove()

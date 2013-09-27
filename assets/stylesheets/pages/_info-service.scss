@@ -1,8 +1,86 @@
 #main{
-	
+
 	.page-content{
-			display:block;
-		
+		display:block;
+		padding:1%;
+		margin:1%;
+		#c12267{
+			background-color:#f7f3e7;
+			margin: 1%;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			.csc-textpic{
+				overflow:hidden;
+			}
+			.csc-textpic-intext-right-nowrap {
+				position: relative;
+				margin: 1%;
+				height: 100%;
+				
+				.csc-textpic-text{
+					
+					
+					.csc-textpicHeader{
+						h2 {
+							display: block;
+							font-size: 1.5em;
+							-webkit-margin-before: 0.83em;
+							-webkit-margin-after: 0.83em;
+							-webkit-margin-start: 0px;
+							-webkit-margin-end: 0px;
+							font-weight: bold;
+						}
+					}
+							
+						h3 {
+							font-size: 17px;
+							line-height: 1.0em;
+							padding: 2px 0 0 0;
+							margin: 10px 0 8px 0;
+							font-weight:normal;
+							
+						}
+				}
+			}
+			.csc-textpic-text{
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+				.bodytext {
+					font: normal normal 400 14px /20px "PT Sans";
+					color: #545454 !important;
+					i{
+						font-style:normal;
+					}
+				}
+			}
+		}
+		#c12273{
+			background-color:#f7f3e7;
+			margin:1%;
+			padding:1%;
+			h3 {
+				font-size: 17px;
+				line-height: 1.0em;
+				padding: 2px 0 0 0;
+				margin: 5px 0 5px 0;
+				font-weight:normal;
+				color: #545454 !important;
+			}
+			.bodytext {
+				font: normal normal 400 14px /20px "PT Sans";
+				color: #545454 !important;
+				i{
+					font-style:normal;
+				}
+			}
+		}
 		.banner-brown{
 			.banner-brown-content{
 				h2{
@@ -84,5 +162,27 @@
 			
 			}
 		}
+		
+		
+		
+		
 	}	
+	#sidebar{
+		ul{
+			li{
+				a{
+					color:$color1;
+					font-weight:bold;
+					font-size:$font_size;
+					text-decoration:underline;
+					
+				
+				}
+			
+			}
+			
+		
+		}
+	
+	}
 }

@@ -9,25 +9,12 @@
 			#trusted_shops_bottom{
 				display:none;
 			}
-			.logo {
-					display: inline;
-				a{
-					width:154px;
-					height:53px;
-					background: image-url("tui-logo.PNG") no-repeat 95% center;
-					display: block;
-					text-indent:-9999px;
-					float: right;
-					
-				}
-			}	
+				
 				
 			#label{
 				.euro-logo {
 					display: inline;
 					a{
-
-						
 						width:104px;
 						height:70px;
 						background: image-url("euro-logo.gif") no-repeat 95% center;
@@ -37,7 +24,27 @@
 						
 					}
 				}
+				.copy{
+					float: left;
+					margin-left: 40%;
+				}
+				.logo {
+					display: inline;
+					float: right;
+					margin-top: -60px;
+				a{
+					width:154px;
+					height:53px;
+					background: image-url("tui-logo.PNG") no-repeat 95% center;
+					display: block;
+					text-indent:-9999px;
+				}
 				
+			}
+			#tui-label{
+				
+			}
+			
 			}
 			
 			#tui-copy{

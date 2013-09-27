@@ -22,16 +22,25 @@ $("./body") {
 					name("span")
 				
 				}
+				$('./span[@id="trusted_shops_bottom"]'){
+					remove()
+				}
+				move_here(".././/strong[@class='logo']","bottom"){
+					name('span')
+				}
+				move_here(".././/span[@class='copy']","bottom")
+				
+				
 			
 			}
 			#$("./div[@id = 'tui-label']"){
-				#move_here(".././/strong[@class='logo']","bottom")
+				
 			
 			#}
-			$("./div[@id = 'tui-copy']"){
-				move_here(".././/span[@class='copy']","bottom")
+			#$("./div[@id = 'tui-copy']"){
+			#	move_here(".././/span[@class='copy']","bottom")
 			
-			}
+			#}
 		}
 	}	
   

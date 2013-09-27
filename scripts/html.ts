@@ -2,7 +2,7 @@
 
 $("/html") {
   rewrite_links()
-  #absolutize_srcs()
+  absolutize_srcs()
 
     
   # Add the mobile meta tags 
