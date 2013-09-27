@@ -92,4 +92,8 @@ $('./body') {
 		
 		}
 	}
+	#$('./div[@id="ui-datepicker-div"]'){
+		#remove_attributes()
+	
+	#}
 }	

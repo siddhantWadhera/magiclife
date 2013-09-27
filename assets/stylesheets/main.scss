@@ -22,6 +22,13 @@
 @import "globals/_base";
 
 
+//import external .css file
+
+//@import "jquery.ui.all.css";
+//@import "jquery.ui.core.css";
+//@import "jquery.ui.datepicker.css";
+//@import "jquery.ui.theme.css";
+
 
 // Header & Footer
 @import "sections/_header";
@@ -33,3 +40,5 @@
 @import "pages/_info-service";
 @import "pages/contact/_informationClubMagicLife";
 @import "pages/contact/_general-enquiry";
+@import "pages/contact/_booking_inquiry";
+@import "pages/contact/_customer-request";

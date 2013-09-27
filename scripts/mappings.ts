@@ -45,6 +45,16 @@ match($status) {
                             @import "pages/contact/general-enquiry.ts"
                             log("--------> Importing pages/general-html in mappings.ts")
                         }
+						with(/booking-/){
+                            @import "pages/contact/booking-inquiry.ts"
+                            log("--------> Importing pages/booking-inquiry in mappings.ts")
+                       
+                        }
+                        with(/customer-/){
+                            @import "pages/contact/customer-request.ts"
+                            log("--------> Importing pages/booking-inquiry in mappings.ts")
+                       
+                        }
 						else() {
 							#@import "pages/home/home.ts"
 						}
