@@ -1,9 +1,3 @@
-#$$("head") {
-#  insert("link", src:asset("javascript/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js"))
- # insert("link", src:asset("javascript/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"))
-  #insert("link", src:asset("javascript/jquery-ui-1.10.3.custom/css/jquery-ui-1.10.3.custom.min.css"))
-#}
-
 $('./body') {
 	$('./div[@id="wrapper"]'){
 		$('.//div[@id="main"]'){

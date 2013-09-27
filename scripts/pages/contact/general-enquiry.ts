@@ -5,11 +5,11 @@ $('./body'){
 			
 			$('./div[@class="main-holder"]'){
 				$('./div[@id="content"]'){
-					$('./div[@id="c12274"]')
+					$('./div[@id="c12275"]')
 					{
 						remove() #removed content div with Contact Details
 					}
-					$('./div[@id="c9806"]')
+					$('./div[@id="c9801"]')
 					{
 						$('./div[@class="Tx-Formhandler"]'){
 							$('./div[@id="formhandler_contact_form"]')
@@ -23,6 +23,14 @@ $('./body'){
 								}
 								attribute("data-role","fieldcontain")
 								$('.//form'){
+									$('.//fieldset[position()=1]'){
+										$('./b[position()=1]'){
+											attribute("style"){
+												value("font-size:10pt;margin-bottom:1%;")
+											}
+										}
+										insert("div", class: "clear-both")
+									}
 									$('.//select')
 									{
 										remove_attributes()
@@ -31,20 +39,19 @@ $('./body'){
 									$('.//div[position()<=2]'){
 										$('./label'){
 											#insert_bottom('br')
-											remove()
+											#remove()
 										}
 									
 									}
-									$('.//div[position()>2]'){
+									$('.//div[position()>=1]'){
 										$('./label'){
 											insert_bottom('br')
 										}
 									
 									}
-									#align submit button to center
 									$('.//input[@class="btn-submit"]'){
 										attribute("style"){
-											value("")
+											value("");
 										}
 									}
 									
@@ -61,6 +68,7 @@ $('./body'){
 		}
 	}
 }
+
 
 
 

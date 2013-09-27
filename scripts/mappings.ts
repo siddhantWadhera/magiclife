@@ -42,8 +42,9 @@ match($status) {
 							log("--------> Importing pages/information-on-a-club-magic-life in mappings.ts")
 						}
 						with(/general-/) {
-							log("--------> Importing pages/general-html in mappings.ts")
-						}
+                            @import "pages/contact/general-enquiry.ts"
+                            log("--------> Importing pages/general-html in mappings.ts")
+                        }
 						else() {
 							#@import "pages/home/home.ts"
 						}
