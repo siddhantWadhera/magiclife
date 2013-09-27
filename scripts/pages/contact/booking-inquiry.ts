@@ -53,6 +53,9 @@ $('./body'){
 						#remove() #removed content div with Contact Details
 					}
 				}
+				$('.//div[@id="sidebar"]'){
+					remove()  #temporary removed.
+				}
 			}
 		}
 	}
