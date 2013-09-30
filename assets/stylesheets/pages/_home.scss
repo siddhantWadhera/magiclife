@@ -245,3 +245,13 @@
 	}
 
 }
+// hiding all  the content used in tool tip date picker etc.
+.tooltip{
+	display:none;
+}
+#ui-datepicker-div{
+	display:none;
+}
+#optionsDiv0,#optionsDiv1,#optionsDiv2,#optionsDiv3,#optionsDiv4,#optionsDiv5,#optionsDiv6,#optionsDiv7,#optionsDiv8,#optionsDiv9{
+	display:none;
+}

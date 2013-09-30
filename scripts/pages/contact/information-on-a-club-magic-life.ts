@@ -2,7 +2,6 @@ $('./body'){
 	$('./div[@id="wrapper"]'){
 	
 		$('.//div[@id = "main"]'){
-			
 			$('./div[@class="main-holder"]'){
 				$('./div[@id="content"]'){
 					$('./div[@id="c12274"]')
