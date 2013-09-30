@@ -1,18 +1,26 @@
 # HTML Transformations go here
 
 $("/html") {
-  rewrite_links()
-  absolutize_srcs()
 
-    
-  # Add the mobile meta tags 
-  clean_mobile_meta_tags()
-
-    
-  # Needed to begin mobilizing
-  remove_all_styles()
-  remove_html_comments()
-
+	$("./head//link[contains(@href, 				'fileadmin/templates/club_magic_life/maintemplate/themes/start/jquery.ui.core.css')]") {
+			attribute("data-mw-keep", "true")
+	} 
+	
+	$("./head//link[contains(@href, 'fileadmin/templates/club_magic_life/maintemplate/themes/start/jquery.ui.datepicker.css')]") {
+			attribute("data-mw-keep", "true")
+	} 
+	$("./head//link[contains(@href, 'fileadmin/templates/club_magic_life/maintemplate/themes/start/jquery.ui.theme.css')]") {
+		attribute("data-mw-keep", "true")
+	} 
+	#$("./head//link[contains(@href, #'fileadmin/templates/club_magic_life/maintemplate/themes/start/jquery.ui.all.css')]") {
+	#	attribute("data-mw-keep", "true")
+	#} 
+	
+	$("./head//link[contains(@href, 'fileadmin/templates/club_magic_life/maintemplate/themes/start/colorbox.css')]") {
+		attribute("data-mw-keep", "true")
+	} 
+	
+	
 	$("./head") {
 	
 	  #insert("script", src:asset("javascript/jquery-1.9.1.js"))
@@ -27,6 +35,22 @@ $("/html") {
 	  #insert_top("link", src:asset("stylesheets/colorbox.css"))
 	  
 	}
+	
+  rewrite_links()
+  absolutize_srcs()
+
+    
+  # Add the mobile meta tags 
+  clean_mobile_meta_tags()
+
+  
+	 
+	
+  # Needed to begin mobilizing
+  remove_all_styles()
+  remove_html_comments()
+
+	
   # Late load all the images on the site
   #lateload()
   
