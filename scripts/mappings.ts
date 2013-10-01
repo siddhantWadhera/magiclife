@@ -32,9 +32,16 @@ match($status) {
 			
 			}
 			with(/info-service/){
+				
+				with(/team-vienna/){
+					@import pages/contact/team-vienna.ts
+					log("----------------> Importing pages/team-vienna.ts in mappings.ts")
+				
+				}
 				with(/contact/){
 					@import pages/info-service.ts
 					log("-----------> Importing pages/info-service.ts in mappings.ts")
+					
 				
 					match($path) {
 						with(/information-/) {
@@ -60,10 +67,9 @@ match($status) {
 						}
 					}
 				}
-			
 			}
-		 }
-      }
+		}
+    }
 	  
 		
       else() {

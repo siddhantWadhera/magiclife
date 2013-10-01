@@ -1,0 +1,81 @@
+#main{
+	.page-content{
+		display:block;
+		padding:1%;
+		margin:1%;
+		#c5882{
+			background-color:#f7f3e7;
+			margin: 1%;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			.csc-header{
+				h3{
+					font-size: $h2_size;
+				}
+			}
+			.tx-wecstaffdirectory-pi1{
+				.tx-wecstaffdirectory-fullWidth{
+					.tx-wecstaffdirectory-stafflist{
+						/*float: left;
+						height: 120px;*/
+						//padding-bottom: 10px;
+						/*width: 48%;
+						display: block;
+						font-size: 12px;
+						margin: 1px;
+						padding: 2px;*/
+						
+						.leftColumn{
+							//display: block;
+							float: left;
+							//width: 25%;
+						}
+						.rightColumn{
+							//display: block;
+							//float: left;
+							//width: 65%;
+							padding-left: 100px;
+							overflow-wrap: break-word;
+							.spacer{
+								padding-bottom: 40px;
+							}
+							.fullwidth{
+								a{
+									img{
+										//padding-bottom: 40px;
+									}
+								}									
+								
+							}
+							
+						}
+					}
+						
+					
+				}
+				.tx-wecstaffdirectory-fullWidthCentered{
+					//margin: 0 auto;
+					//text-align: center;
+					//width: 100%;
+				}
+				
+			}
+			.tx-wecstaffdirectory-fullWidthCentered{
+				//margin: 0 auto;
+				//text-align: center;
+				//width: 100%;
+			}
+			.tx-wecstaffdirectory-spacer{
+				//clear: both;
+				//height: 0.1em;
+				//line-height: 0.1em;
+			}
+
+		}
+		
+	}
+
+}
