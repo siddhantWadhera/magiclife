@@ -7,7 +7,12 @@
 				attribute("data-ur-set", "toggler")
 				
 				move_here('.././h1','bottom'){
+					#move_here('../.././/strong[@class="slogan"]','bottom'){
+							#remove()
+						#}
+					
 					$('./a'){
+						
 						insert('div',id:'logo-img')
 						$('./div[@id="logo-img"]'){
 							insert('img')
@@ -19,10 +24,15 @@
 									value('image')
 								}
 							}
+							
 						
 						}
 						
 					
+					}
+					insert_bottom('strong',"Where Magic Happens")
+					$('./strong[@class="slogan"]'){
+						
 					}
 					#attribute("data-ur-toggler-component", "button")
 					
