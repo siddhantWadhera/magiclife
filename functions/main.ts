@@ -269,7 +269,7 @@
       not(/false/) {
         # Do nothing :: Use base tag value
         $base_found = "true "
-		log("-------------------------------------------------------------------------------------> $base_found   : " + $base_found + "-------------------- : " + $rewriter_url + "---------------- $source_host: " + $source_host)
+		
       }
       else() {
         $rewriter_url = $source_host
@@ -287,7 +287,7 @@
             else() {
               match($base_found) {
                 with(/false/) {
-					log("-------------------------------------------------------------------------------------> $base_found is matched with false : " + $rewriter_url + "------------------ : " + $slash_path)
+					
                   # path-relative URL: add the host and the path
                   prepend(concat("//", $rewriter_url, $slash_path))
                 }
