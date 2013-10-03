@@ -238,10 +238,10 @@
 						
 						&[data-ur-state="disabled"]{
 						  > .menu_indicator {
-								//background: image-url("plus.png") no-repeat 95% center;
-								//width: 20px;
-								//height: 20px;
-								@extend .sprites-plus;
+								background: image-url("plus.png") no-repeat 95% center;
+								width: 20px;
+								height: 20px;
+								//@extend .sprites-plus;
 							}
 						}
 						&[data-ur-state="enabled"]{
