@@ -54,15 +54,15 @@
 						
 					}
 					.datepicker {
-						/*position: relative;
+						position: relative;
 						float: left;
 						margin: 2px 0 0;
 						background:  image-url("ico-table.gif") no-repeat;
 						width: 18px;
 						height: 20px;
 						text-indent: -9999px;
-						overflow: hidden;*/
-						@extend .datepicker-calendar;
+						overflow: hidden;
+						//@extend .datepicker-calendar;
 					}
 					input[type="text"]{
 						display: block;
@@ -70,34 +70,34 @@
 					}
 					
 					input.date{
-						/*border: none;
+						border: none;
 						margin: 0 6px 0 0;
 						padding: 5px;
 						background: image-url("page-sprite.png") 0 -1570px no-repeat;
 						width: 73px;
 						color: #545454;
-						font-size: $date_font;*/
-						@extend .date-input;
+						font-size: $date_font;
+						//@extend .date-input;
 					}
 					input.textwide {
-						/*background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
+						background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
 						border: medium none;
 						color: #545454;
 						margin: 0;
 						width:237px;
-						padding: 6px 5px;*/
-						@extend .text-input;
+						padding: 6px 5px;
+						//@extend .text-input;
 					}
 					textarea.textarea-380{
-						/*background: image-url("page-sprite.png") no-repeat scroll 0 -1095px transparent;
+						background: image-url("page-sprite.png") no-repeat scroll 0 -1095px transparent;
 						border: medium none;
 						color: #545454;
 						margin: 0;
 						padding: 5px 8px 12px 5px;
 						width: 237px;
 						height: 143px;
-						resize: none;*/
-						@extend .textarea-input;
+						resize: none;
+						//@extend .textarea-input;
 					}
 					.btn-submit{
 						@include button;

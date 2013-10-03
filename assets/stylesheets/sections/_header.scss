@@ -75,11 +75,11 @@
 							//text-shadow: 1px 1px 0px white;
 							//border-bottom: 1px solid #c0bca3;
 							>.arrow-indicator{
-								//background: image-url("menu_go.png") no-repeat 95% center;
-								//width: 9px;
-								//height: 13px;
-								//float:right;
-								@extend .sprites-arrow-indicator;
+								background: image-url("menu_go.png") no-repeat 95% center;
+								width: 9px;
+								height: 13px;
+								float:right;
+								//@extend .sprites-arrow-indicator;
 							}
 						}
 					}
