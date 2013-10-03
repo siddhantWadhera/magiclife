@@ -1,7 +1,9 @@
 # HTML Transformations go here
 
 $("/html") {
-
+	 #$("./body") {
+      #insert("script", src:asset("javascript/swipe.js"))
+	#}
 	$("./head//link[contains(@href, 				'fileadmin/templates/club_magic_life/maintemplate/themes/start/jquery.ui.core.css')]") {
 			attribute("data-mw-keep", "true")
 	} 
@@ -53,7 +55,7 @@ $("/html") {
 	
   # Late load all the images on the site
   #lateload()
-  
+ 
 
   add_assets()
 

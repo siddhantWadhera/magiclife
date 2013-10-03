@@ -11,15 +11,17 @@ html {
 
 body {
 	-webkit-text-size-adjust: none;
-	background: #90d5f2;
-	color: #333;
-	font-family: "Helvetica Neue", Helvetica, Verdana;
+	//background: $background1;
+	background: image-url("bg-body.PNG") no-repeat 50% 0;
+	background-color:#f7f3e7;
+	color: $color1;
+	font-family: "Segoe UI", "Roboto", "Verdana";
 	position: relative;
 	min-height: 100%;
 	font-size:$font_size;
 	height: 100%;
 	padding: 0;
-	margin: 0;
+	margin: 1%;
 }
 
 a {

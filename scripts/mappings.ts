@@ -36,6 +36,14 @@ match($status) {
 				with(/team-vienna/){
 					@import pages/contact/team-vienna.ts
 					log("----------------> Importing pages/team-vienna.ts in mappings.ts")
+					/*match($path){
+						with(/tx_wecstaffdirectory/){
+							
+							log("----------------> Importing pages/team-viennaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.ts in mappings.ts")
+						}
+					
+					}*/
+					
 				
 				}
 				with(/contact/){

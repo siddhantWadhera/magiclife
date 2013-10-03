@@ -3,15 +3,16 @@
 	padding:1%;
 	margin:1%;
 	color: #545454;
-	font: 1.2em /1.5em 'PT Sans', sans-serif;
+	font: 1.2em /1.5em "Segoe UI", "Roboto", "Verdana";
 	#c9807{
-		background-color:#f7f3e7;
+		/*background-color:$background4;
 		margin: 1%;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+		vertical-align: baseline;*/
+		@include contact-basic;
 		
 		.csc-header{
 			margin-bottom: 24px;
@@ -53,14 +54,15 @@
 						
 					}
 					.datepicker {
-						position: relative;
+						/*position: relative;
 						float: left;
 						margin: 2px 0 0;
 						background:  image-url("ico-table.gif") no-repeat;
 						width: 18px;
 						height: 20px;
 						text-indent: -9999px;
-						overflow: hidden;
+						overflow: hidden;*/
+						@extend .datepicker-calendar;
 					}
 					input[type="text"]{
 						display: block;
@@ -68,31 +70,34 @@
 					}
 					
 					input.date{
-						border: none;
+						/*border: none;
 						margin: 0 6px 0 0;
 						padding: 5px;
 						background: image-url("page-sprite.png") 0 -1570px no-repeat;
 						width: 73px;
 						color: #545454;
-						font-size: $date_font;
+						font-size: $date_font;*/
+						@extend .date-input;
 					}
 					input.textwide {
-						background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
+						/*background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
 						border: medium none;
 						color: #545454;
 						margin: 0;
 						width:237px;
-						padding: 6px 5px;
+						padding: 6px 5px;*/
+						@extend .text-input;
 					}
 					textarea.textarea-380{
-						background: image-url("page-sprite.png") no-repeat scroll 0 -1095px transparent;
+						/*background: image-url("page-sprite.png") no-repeat scroll 0 -1095px transparent;
 						border: medium none;
 						color: #545454;
 						margin: 0;
 						padding: 5px 8px 12px 5px;
 						width: 237px;
 						height: 143px;
-						resize: none;
+						resize: none;*/
+						@extend .textarea-input;
 					}
 					.btn-submit{
 						@include button;

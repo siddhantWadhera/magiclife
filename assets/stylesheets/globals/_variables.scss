@@ -1,7 +1,11 @@
 
 $color1 : #000000;
 $color2 : #ffffff;
-$color3: #D74401; //header border color
+$color3 : #D74401; //header border color
+$color4 : #5f0f02; //border color for list
+$color5 : #fdc400; //border color between the main tabs in header
+$color6 : #d7ccae; //border color for the club finder search .
+
 
 //font-size
 $font_size:13px;
@@ -12,15 +16,25 @@ $h1_size  : $font_size+9px;
 $h2_size  : $font_size+6px;
 
 //background
-$background1 :#90d5f2;
-$background2 :#ffffff;
+$background1 : #90d5f2;
+$background2 : #ffffff;
+$background3 : #e6e6e6;
+$background4 : #f7f3e7; //content background
+
+
 
 
 // borders
-$border1: 1px solid $color3;
+$border1 : 1px solid $color1;
+$border2 : 1px solid $color1;
+$border3 : 1px solid $color1;
+$border4 : 1px solid $color1;
+$border5 : 1px solid $color2;
+
+
 
 // border radius
-$border_radius: 5px;
+$border_radius : 5px;
 
 // gradients
 

@@ -41,10 +41,16 @@ $('./body') {
 						
 						}
 							
-					
+						$('.//div[@class="tx-wecstaffdirectory-staffpage"]'){
+							$('./div[@class="maincontent"]'){
+								move_here('.././div[@class="topmenu"]','after'){
+								
+								}
+								#remove()
+							}
+						
+						}
 					}
-					
-				
 				}
 			}
 		}

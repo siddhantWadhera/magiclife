@@ -7,6 +7,23 @@
 				attribute("data-ur-set", "toggler")
 				
 				move_here('.././h1','bottom'){
+					$('./a'){
+						insert('div',id:'logo-img')
+						$('./div[@id="logo-img"]'){
+							insert('img')
+							$('./img'){
+								attribute('src'){
+									value('fileadmin/templates/club_magic_life/maintemplate/images/logo.gif');
+								}
+								attribute('alt'){
+									value('image')
+								}
+							}
+						
+						}
+						
+					
+					}
 					#attribute("data-ur-toggler-component", "button")
 					
 					move_here('../.././/div[@class="panel"]','after'){
