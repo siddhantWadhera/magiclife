@@ -41,7 +41,7 @@
 						
 						$('./ul[@id="nav"]'){
 							# Remove unwanted top menu items from upper menu
-							$('./li[position()=6]'){#remove shop tab from menu
+							$('./li[position()>4]'){#remove shop and shortlist tab from menu
 								remove()
 							}
 						}
