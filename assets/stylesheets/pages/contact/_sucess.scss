@@ -1,0 +1,33 @@
+#content{
+	padding:1%;
+	margin:1%;
+	color: #545454;
+	font: 1.2em /1.5em "Segoe UI", "Roboto", "Verdana";
+	
+	#c9796{
+		/*background-color:$background4;
+		margin: 1%;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;*/
+		@include contact-basic;
+		
+		.csc-header{
+			h3{
+				text-align:center;
+				font-weight:bold;
+			
+			}
+		}
+		p{
+			a{
+				span{
+					text-decoration:underline;
+				}
+			}
+		}
+		
+	}
+}

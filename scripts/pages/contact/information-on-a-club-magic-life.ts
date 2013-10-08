@@ -24,7 +24,8 @@ $('./body'){
 								$('.//form'){
 									$('.//select')
 									{
-										remove_attributes()
+										#remove_attributes()
+										
 										
 									}
 									$('.//div[position()<=2]'){

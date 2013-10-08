@@ -2,15 +2,17 @@
 	.page-content{
 		display:block;
 		padding:1%;
-		margin:1%;
+		margin:1%;	
 		#c5882{
-			background-color:$background4;
-			margin: 1%;
-			padding: 0;
-			border: 0;
-			font-size: 100%;
-			font: inherit;
-			vertical-align: baseline;
+		/*background-color:$background4;
+		margin: 1%;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;*/
+		@include contact-basic;
+		
 			.csc-header{
 				h3{
 					font-size: $h2_size;

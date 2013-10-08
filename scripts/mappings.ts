@@ -18,6 +18,7 @@ match($status) {
     log("--> STATUS: 200")
 
     match($path) {
+		log('path : : :  : : : : : ' + $path)
       with(/^\/$|^\/\?/) {
         log("------------> Importing pages/home.ts in mappings.ts")
         @import pages/home.ts
@@ -52,6 +53,10 @@ match($status) {
 					
 				
 					match($path) {
+						with(/success/){
+							@import"pages/contact/success.ts"
+							log("--------> Importing succccccccceeeeeeessssssssssss")
+						}
 						with(/information-/) {
 							@import "pages/contact/information-on-a-club-magic-life.ts"
 							log("--------> Importing pages/information-on-a-club-magic-life in mappings.ts")

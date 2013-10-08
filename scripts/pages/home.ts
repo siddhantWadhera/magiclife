@@ -6,17 +6,44 @@ $('./body') {
 				add_class('home-content')
 			}
 			$('./div[@class="main-holder"]'){
+				#insert_top('div',id:'mySwipe')
+				
+				#insert_top('div',id:'clubdiv')
+				#$('./div[@id="clubdiv"]'){
+				#	attribute("data-ur-set", "toggler")
+				#	insert('h3','ClubFinder')
+				#	$('./h3'){
+				#		attribute("data-ur-toggler-component", "button")
+				#		insert("div", class: "club_search")
+				#	}
+				
+				#}
+				
+				
+				
 				$('./div[@id="sidebar"]'){
 					## the club finder div 
 					$('./div[@id="c12248"]'){
 						$('.//div[@class="box-form"]'){
+							attribute("data-ur-set", "toggler")
 							add_class('ui-inline')
 							$('./ul'){
+								attribute("data-ur-toggler-component", "button")
+								insert("div", class: "menu_indicator")
+								$('./li'){
+									
+									#attribute("data-ur-toggler-component", "button")
+									$('./a'){
+										remove_attributes()
+									}
+									
+								}
 								$('.//br'){
 									remove()
 								}
 							}
 							$('.//div[@id="tab-2"]'){
+								attribute("data-ur-toggler-component", "content")
 								$('.//form[@class="box-form"]'){
 									
 								
@@ -25,8 +52,34 @@ $('./body') {
 							}
 					
 						}
+						insert_after('div',id:'mySwipe')
+						
 					}
-					
+					## swiper start
+					$('./div[@id="mySwipe"]'){
+						attribute("style","max-width: 500px; margin:0 auto")
+						attribute("class","swipe")
+			
+						move_here('../.././/div[@class="gallery-frame"]','bottom'){
+							#attribute("data-ur-carousel-component","scroll_container")
+							attribute("class") {
+								value() {
+									set("swipe-wrap")
+								}
+							}
+							move_here('.//a','top'){
+								remove_attributes()
+								name('div')
+							}
+							remove("./ul")
+							$(".//img") {
+								attribute("width","")
+								attribute("height","")
+							}
+						}
+					}
+					#### swiper end	
+				
 					$('./div[@id="c12316"]'){
 						$('./div[@class="links-block"]'){
 							attribute("data-ur-set", "toggler")
@@ -82,10 +135,11 @@ $('./body') {
 				
 				
 					}
-				
+					## removing the contact info from home page
+					remove('../../.././/div[@id="topbar"]')
 			
 				}
-			
+				
 			
 			}	
 	
