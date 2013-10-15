@@ -1,0 +1,231 @@
+#main{
+	#c12536{
+			background-color:$background4;
+			margin: 2%;
+			padding: 2%;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			overflow: hidden;
+		.tx-felogin-pi1{
+			margin: 0;
+			padding: 0;
+			border: 0;
+			.sidebar-holder{
+				margin: 0;
+				padding: 0;
+				border: 0;
+				/*background: #fff;
+				padding: 0 0 20px;*/
+	
+				.box-form {
+					overflow: hidden;
+					background: #f4e9d5;
+					float: left;
+					//width: auto;
+					line-height:1.4em;
+								
+					.box-form-tabset {
+						margin: 0 0 0 1px;
+						width: 278px;
+						list-style: none;
+						padding:0;
+						li.active {
+							z-index: 100;
+						}
+						li.active a{
+							font-size: 16px;
+								background-position: 0 0;
+								color: #262626;
+						}
+						li.active span{
+							background-position: 100% 0;
+						}
+						li.active:first-child span {
+							padding: 10px 0 17px;
+						}
+						li {
+							position: relative;
+							float: left;
+							margin: 0 0 0 -1px;
+							font-size: 12px;
+							line-height: 14px;
+							font-weight: bold;
+							a {
+								display: block;
+								background: image-url("tab-3-l.gif") no-repeat 0 -41px;
+								text-align: center;
+								height: 41px;
+								overflow: hidden;
+								text-decoration: none;
+								margin: 0;
+								padding: 0;
+								span {
+									display: block;
+									background: image-url("tab-3-r.gif") no-repeat 100% -41px;
+								}
+							}
+						
+						}
+					}
+					.box-form-content {
+						border: 1px solid #d7ccae;
+						//padding: 2px 14px 3px 15px;
+						border-top: none;
+						overflow: hidden;
+						height: auto;
+						float:left;
+						width:277px;
+						font-size: 12px;
+						//line-height: 27px;
+						background: #f4e9d5;
+						form{
+							/*margin: 0;
+							padding: 0;*/
+							border: 0;
+							fieldset{
+								border:none;
+								font-size: 100%;
+								font: inherit;
+								.field {
+									padding: 7px 0 11px;
+									width: 100%;
+									overflow: hidden;
+									.row {
+										width: 100%;
+										overflow: hidden;
+										margin-bottom: 3px;
+										color:#545454;
+										h3 {
+											font-size: 16pt;
+											line-height: 1.2em;
+											padding: 2px 0 0 0;
+											margin: 10px 0 8px 0;
+											font-weight:normal;
+										}
+										div {
+											float: left;
+											width: auto;
+											line-heihgt:1.4em;
+											font-size: 9pt;
+											font-weight:normal;
+										}
+										label{
+											font-weight: bold !important;
+											font-size:100%;
+										}
+										input.textwide {
+											background: image-url("page-sprite.png") no-repeat scroll 0 -1537px transparent;
+											border: medium none;
+											color: #545454;
+											margin: 0;
+											padding: 6px 5px;
+											width: 237px;
+										}
+										.btn-submit{
+											@include button;
+											float: left;
+											margin-left: 100px;
+										}
+										a{
+											text-decoration: underline;
+											color: #1480ee;
+										}
+										strong{
+											font-weight: bold;
+										}
+									}
+								}
+								.field:first-child {
+									background: none;
+								}
+								
+							}
+						}
+					}
+				}
+			}
+			
+		}
+	}
+	.page-content{
+		display:block;
+		padding:0;
+		margin:1%;
+		
+		#c6802{
+			background-color:$background4;
+			margin: 1%;
+			padding: 1%;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			.csc-header{
+				h2{
+					font-size: 26px;
+					font: inherit;
+					margin-bottom: 24px;
+					line-height: 1.2em;
+					font-weight: bold;
+					padding: 2px 0 0 0;
+				}
+			}
+			.csc-textpic-text{
+				.bodytext{
+					font: normal normal 400 14px /20px "PT Sans";
+					color: #545454 !important;
+					 a {
+						text-decoration: underline;
+						color: #1480ee;
+					}
+				}
+			}
+		
+		}
+		#c13788{
+			background-color:$background4;
+			margin: 1%;
+			padding: 1%;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			.bodytext{
+				font: normal normal 400 14px /20px "PT Sans";
+				color: #545454 !important;
+				 a {
+					text-decoration: underline;
+					color: #1480ee;
+				}
+			}
+		}
+		#c12534{
+			background-color:$background4;
+			margin: 1%;
+			padding: 1%;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			.csc-header{
+				h2{
+					font-size: 26px;
+					font: inherit;
+					margin-bottom: 24px;
+					line-height: 1.2em;
+					font-weight: bold;
+					padding: 2px 0 0 0;
+				}
+			}
+			.bodytext{
+				font: normal normal 400 14px /20px "PT Sans";
+				color: #545454 !important;
+				 a {
+					text-decoration: underline;
+					color: #1480ee;
+				}
+			}
+		
+		}
+	}
+}

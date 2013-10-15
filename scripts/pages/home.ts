@@ -59,7 +59,9 @@ $('./body') {
 					$('./div[@id="mySwipe"]'){
 						attribute("style","max-width: 500px; margin:0 auto")
 						attribute("class","swipe")
-			
+						#attribute("data-ur-set", "carousel")
+						#attribute("data-ur-carousel-component", "view_container")
+						#attribute("data-ur-id", "MyFirstCarousel")	
 						move_here('../.././/div[@class="gallery-frame"]','bottom'){
 							#attribute("data-ur-carousel-component","scroll_container")
 							attribute("class") {
@@ -70,6 +72,7 @@ $('./body') {
 							move_here('.//a','top'){
 								remove_attributes()
 								name('div')
+								#attribute("data-ur-carousel-component","item")
 							}
 							remove("./ul")
 							$(".//img") {
@@ -77,6 +80,14 @@ $('./body') {
 								attribute("height","")
 							}
 						}
+						#insert_top("div","next") {
+							#attribute(" data-ur-carousel-component","button")
+							#attribute(" data-ur-carousel-button-type","next")
+						#}
+						#insert_top("div","prev") {
+							#attribute(" data-ur-carousel-component","button")
+							#attribute(" data-ur-carousel-button-type","prev")
+						#}
 					}
 					#### swiper end	
 				

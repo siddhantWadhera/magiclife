@@ -47,6 +47,11 @@ match($status) {
 					
 				
 				}
+				with(/pre-check-in/){
+					@import pages/precheckin.ts
+					log("----------------> Importing pages/precheckin.ts in mappings.ts")
+				}
+				
 				with(/contact/){
 					@import pages/info-service.ts
 					log("-----------> Importing pages/info-service.ts in mappings.ts")

@@ -53,4 +53,51 @@ ul{
 
   }
 }
+/*div[data-ur-carousel-component='view_container'] {
+  width:100%;
+  overflow: hidden;
+  height: 320px;
+  position: relative;
+}
+*[data-ur-carousel-component="scroll_container"] {
+  display:block;
+  clear:both;
+  margin-left:0px;
+}
+*[data-ur-carousel-component="scroll_container"] > * {
+  display:inline-block;
+  float:left;
+}
+
+div[data-ur-carousel-component="button"]{
+    display: inline-block;
+}
+div[data-ur-carousel-component="button"][data-ur-state="disabled"] {
+  opacity: .3;
+}
+div[data-ur-carousel-button-type="prev"] {
+  float:left;
+  margin: 5px;
+  opacity: 0.6;
+  @extend .sprites-chevron-left;
+}
+div[data-ur-carousel-button-type="next"] {
+  float:right;
+  margin: 5px;
+  opacity: 0.6;
+  @extend .sprites-chevron-right;
+}
+span[data-ur-carousel-component="count"] {
+  text-align:center;
+  width: 85%;
+  clear:both;
+  margin-top: 7px;
+  display: inline-block;
+}
+a[data-ur-carousel-component="item"] {
+  img {
+    width:320px;
+    height:214px;
+  }
+}*/
 
