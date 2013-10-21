@@ -1,0 +1,157 @@
+#main{
+	#c12281{
+		background-color:$background4;
+		margin: 1%;
+		padding: 1%;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		overflow: hidden;
+		.csc-header{
+			h2{
+				font-size: 26px;
+				line-height: 1.2em;
+				font-weight: bold;
+				padding: 2px 0 0 0;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	#c12238{
+		background-color:$background4;
+		margin: 1%;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		overflow: hidden;
+		Div.tabmenu-box {
+			position: relative;
+			float: left;
+			width: 99%;
+			margin: 0 0 15px 0;
+			clear: both;
+			ul.tabmenu-tabset {
+				height: 36px;
+				margin:1%;
+				border-bottom: 1px solid #d7ccae;
+				padding: 0 0 0 10px;
+				li{
+					position: relative;
+					float: left;
+					font-size:9pt;
+					display: block;
+					margin: 0 0 0 -1px;
+					line-height: 37px;
+					font-weight: bold;
+					a{
+						display: block;
+						background: image-url("tab-1-l.gif") no-repeat 0 -37px;
+						text-align: center;
+						height: 37px;
+						overflow: hidden;
+						text-decoration: none;
+						color: #1480ee;
+						span {
+							display: block;
+							padding: 0 10px;
+							background: image-url("tab-1-r.gif") no-repeat 100% -37px;
+							cursor: pointer;
+						}
+					}
+				}
+				li.active {
+					z-index: 100;
+					font-size:9pt;
+					font-weight:bold;
+					a {
+						font-size: 12px;
+						background-position: 0 0;
+						color: #262626;
+					}
+					span {
+						background-position: 100% 0;
+					}
+				}
+			}
+		}
+		#horizontal-tab-51{
+			margin: 0 0 15px 0;
+			.tabcontent {
+				margin:1%;
+				position: relative;
+				float: left;
+				h2 {
+					margin: 10px 0;
+					font-size: $h2_size;
+				}
+				.description-51{
+					.bodytext {
+						font: normal normal 400 14px /20px "PT Sans";
+						color: #545454 !important;
+						font-size:9pt;
+						a {
+							text-decoration: underline;
+							color: #1480ee;
+						}
+						b{
+							font-weight:bold;
+						}
+					}
+				}
+			}
+		}
+		#horizontal-tab-50{
+			.tabcontent{
+				margin:1%;
+				position: relative;
+				float: left;
+				h2 {
+					margin: 10px 0;
+					font-size: $h2_size;
+				}
+				.description-50{
+					.bodytext {
+						font: normal normal 400 14px /20px "PT Sans";
+						color: #545454 !important;
+						font-size:9pt;
+						a {
+							text-decoration: underline;
+							color: #1480ee;
+						}
+						b{
+							font-weight:bold;
+						}
+					}
+				}
+			
+			}
+		}
+		#horizontal-tab-48{
+			.tabcontent{
+				margin:1%;
+				position: relative;
+				float: left;
+				h2 {
+					margin: 10px 0;
+					font-size: $h2_size;
+				}
+				.description-48{
+					.bodytext {
+						font: normal normal 400 14px /20px "PT Sans";
+						color: #545454 !important;
+						font-size:9pt;
+						a {
+							text-decoration: underline;
+							color: #1480ee;
+						}
+						b{
+							font-weight:bold;
+						}
+					}
+				}
+			}
+		}
+	}
+}

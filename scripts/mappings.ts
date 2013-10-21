@@ -36,11 +36,11 @@ match($status) {
 				
 				with(/team-vienna/){
 					@import pages/contact/team-vienna.ts
-					log("----------------> Importing pages/team-vienna.ts in mappings.ts")
+					log("----------------> Importing pages/contact/team-vienna.ts in mappings.ts")
 					/*match($path){
 						with(/tx_wecstaffdirectory/){
 							
-							log("----------------> Importing pages/team-viennaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.ts in mappings.ts")
+							log("----------------> Importing pages/contact/team-viennaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.ts in mappings.ts")
 						}
 					
 					}*/
@@ -51,7 +51,10 @@ match($status) {
 					@import pages/precheckin.ts
 					log("----------------> Importing pages/precheckin.ts in mappings.ts")
 				}
-				
+				with(/press/){
+					@import pages/press.ts
+					log("----------------> Importing pages/press.ts in mappings.ts")
+				}
 				with(/contact/){
 					@import pages/info-service.ts
 					log("-----------> Importing pages/info-service.ts in mappings.ts")

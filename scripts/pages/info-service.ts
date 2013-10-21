@@ -75,9 +75,17 @@ $('./body') {
 				}
 				
 			}
-			#$('.//div[@id="sidebar"]'){
+			$('.//div[@id="sidebar"]'){
+				$('./div[@class="submenu-block"]'){
+					$('./ul'){
+						$('./li[position()=7]'){
+							remove() #removing jobs...
+						}
+					}
+				}
+				
 				#remove()  #temporary removed.
-			#}
+			}
 		}
 	}
 }	

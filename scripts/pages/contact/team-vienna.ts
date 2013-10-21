@@ -44,7 +44,15 @@ $('./body') {
 						$('.//div[@class="tx-wecstaffdirectory-staffpage"]'){
 							$('./div[@class="maincontent"]'){
 								move_here('.././div[@class="topmenu"]','after'){
-								
+									$('.//select'){
+										$('./option[position()>1]'){
+											attribute('value'){
+												#log(search((http://[^/]*)(/.*)))
+												#rewrite_links()
+												 #replace((http://[^/]*)(/.*), "")
+											}
+										}
+									}
 								}
 								#remove()
 							}
