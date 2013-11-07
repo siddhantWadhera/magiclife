@@ -35,3 +35,4 @@ Remember to put all domains you're going to hit in your etc/hosts if you run you
 
     127.0.0.1   mlocal.magiclife.com
     127.0.0.1   mlocal.booking.magiclife.com
+
