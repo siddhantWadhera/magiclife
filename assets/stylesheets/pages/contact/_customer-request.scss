@@ -46,7 +46,7 @@
 						font-size:8.5pt;
 						//max-width:180px;
 						width: 83%;
-						padding: 5px
+						padding: 5px;
 						border-radius: 5px 5px 5px 5px;
 						border: 1px solid #d3c7a7;
 					}
@@ -88,7 +88,7 @@
 						border-radius: 5px 5px 5px 5px;
 						border: 1px solid #d3c7a7;
 						-webkit-box-shadow: inset 0 0 5px #ececec;
-						width:80%
+						width:80% !important;
 						//@extend .date-input;
 					}
 					input.textwide {
