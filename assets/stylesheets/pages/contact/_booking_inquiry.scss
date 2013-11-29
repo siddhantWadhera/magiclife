@@ -37,7 +37,9 @@
 					//position:relative;
 					border:none;
 					width:100%;
-					
+					table{
+						width:100%
+					}
 					b{
 						font-size: 10pt;
 						width: 35%;
@@ -46,10 +48,10 @@
 					select{
 						width:auto;
 						font-size:8.5pt;
-						max-width:180px;
+						//max-width:180px;
+						width: 95%;
+						padding: 5px
 					}
-					
-						
 					Div.row{
 						label{
 							font-size:8pt;
@@ -97,33 +99,46 @@
 						display: block;
 						float: left;
 					}
-					
+					 
 					input.date{
 						border: none;
 						margin: 0 6px 0 0;
 						padding: 5px;
-						background: image-url("page-sprite.png") 0 -1570px no-repeat;
-						width: 73px;
+						//background: image-url("page-sprite.png") 0 -1570px no-repeat;
+						//width: 73px;
 						color: #545454;
 						font-size: $date_font;
 						//@extend .date-input;
+						border-radius: 5px 5px 5px 5px;
+						border: 1px solid #d3c7a7;
+						-webkit-box-shadow: inset 0 0 5px #ececec;
+						width:92%
+					}
+					#zip{
+						width:40%;
 					}
 					input.textwide {
-						background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
+						//background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
 						border: medium none;
 						color: #545454;
 						margin: 0;
-						width:237px;
+						width:95%;
 						padding: 6px 5px;
+						border-radius: 5px 5px 5px 5px;
+						border: 1px solid #d3c7a7;
+						-webkit-box-shadow: inset 0 0 5px #ececec
 						//@extend .text-input;
 					}
 					input.textwide-city{
-						background: image-url("page-sprite.png") no-repeat scroll 0 -458px transparent;
+						//background: image-url("page-sprite.png") no-repeat scroll 0 -458px transparent;
 						border: medium none;
 						color: #545454;
 						margin: 0;
 						padding: 6px 5px;
-						width: 150px;
+						width: 50%;
+						border-radius: 5px 5px 5px 5px;
+						border: 1px solid #d3c7a7;
+						-webkit-box-shadow: inset 0 0 5px #ececec;
 					}
 					textarea.textarea-380{
 						//background: image-url("page-sprite.png") no-repeat scroll 0 -1095px transparent;
@@ -131,7 +146,7 @@
 						color: #545454;
 						margin: 0;
 						padding: 5px 8px 12px 5px;
-						width: 237px;
+						width: 95%;
 						height: 143px;
 						resize: none;
 						border-radius: 5px 5px 5px 5px;

@@ -49,6 +49,10 @@ $('./body'){
 									
 								}
 							}
+							$(".//input[@id='date-from'] | .//input[@id = 'date-to']"){
+								log('-----------------------------------------------------> INPUT DATE ')
+								attribute('readonly','true')
+							}
 						}
 						#remove() #removed content div with Contact Details
 					}

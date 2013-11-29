@@ -46,6 +46,8 @@
 					select{
 						width:auto;
 						font-size:8.5pt;
+						width: 95%;
+						padding: 5px
 						
 					}
 					
@@ -59,12 +61,16 @@
 						}
 					}
 					input.textwide {
-						background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
+						//background: image-url("page-sprite.png")  no-repeat scroll 0 -1537px transparent;
 						border: medium none;
 						color: #545454;
 						margin: 0;
-						width:237px;
+						//width:237px;
 						padding: 6px 5px;
+						border-radius: 5px 5px 5px 5px;
+						border: 1px solid #d3c7a7;
+						-webkit-box-shadow: inset 0 0 5px #ececec;
+						width:92%
 						//@extend .text-input;
 					}
 					textarea.textarea-380{
@@ -73,7 +79,7 @@
 						color: #545454;
 						margin: 0;
 						padding: 5px 8px 12px 5px;
-						width: 237px;
+						width: 95%;
 						height: 136px;
 						resize: none;
 						border-radius: 5px 5px 5px 5px;
