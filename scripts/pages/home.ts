@@ -6,20 +6,6 @@ $('./body') {
 				add_class('home-content')
 			}
 			$('./div[@class="main-holder"]'){
-				#insert_top('div',id:'mySwipe')
-				
-				#insert_top('div',id:'clubdiv')
-				#$('./div[@id="clubdiv"]'){
-				#	attribute("data-ur-set", "toggler")
-				#	insert('h3','ClubFinder')
-				#	$('./h3'){
-				#		attribute("data-ur-toggler-component", "button")
-				#		insert("div", class: "club_search")
-				#	}
-				
-				#}
-				
-				
 				
 				$('./div[@id="sidebar"]'){
 					## the club finder div 
@@ -58,21 +44,18 @@ $('./body') {
 					## swiper start
 					$('./div[@id="mySwipe"]'){
 						attribute("style","max-width: 500px; margin:0 auto")
-						attribute("class","swipe")
-						#attribute("data-ur-set", "carousel")
-						#attribute("data-ur-carousel-component", "view_container")
-						#attribute("data-ur-id", "MyFirstCarousel")	
+						attribute("class","swipe")	
 						move_here('../.././/div[@class="gallery-frame"]','bottom'){
-							#attribute("data-ur-carousel-component","scroll_container")
 							attribute("class") {
 								value() {
 									set("swipe-wrap")
 								}
 							}
-							move_here('.//a','top'){
+							move_here('.//li','top'){
 								remove_attributes()
+								log('----------------------------------------------------> Move lI : : : ')	
 								name('div')
-								#attribute("data-ur-carousel-component","item")
+								
 							}
 							remove("./ul")
 							$(".//img") {
@@ -80,14 +63,7 @@ $('./body') {
 								attribute("height","")
 							}
 						}
-						#insert_top("div","next") {
-							#attribute(" data-ur-carousel-component","button")
-							#attribute(" data-ur-carousel-button-type","next")
-						#}
-						#insert_top("div","prev") {
-							#attribute(" data-ur-carousel-component","button")
-							#attribute(" data-ur-carousel-button-type","prev")
-						#}
+						
 					}
 					#### swiper end	
 				
@@ -105,11 +81,11 @@ $('./body') {
 								$('./div[@id= "life-advantages"]'){
 									attribute("data-ur-toggler-component", "content")
 									move_here('../.././ul[@class="contentlist"]','bottom'){
-										#attribute("data-ur-toggler-component", "content")
+										
 									}
 									move_here('../.././p[position()= last()]','bottom'){
 										$('./a'){
-											#attribute("data-ur-toggler-component", "content")
+											
 										}
 									}
 								}
