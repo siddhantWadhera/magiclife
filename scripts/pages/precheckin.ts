@@ -34,6 +34,9 @@ $('./body') {
 					add_class('page-content')
 				}
 			}
+			$('.//div[@id="sidebar"]'){
+				add_class('info-contact')
+			}
 		}
 	}
 }	

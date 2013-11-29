@@ -14,9 +14,11 @@
 		@include contact-basic;
 		padding-bottom: 10px;
 			.csc-header{
+				margin-bottom: 10px;
 				h3{
 					font-size: $h2_size;
 					font: inherit;
+					padding-top: 10px;
 					text-align: center;
 					border-bottom: 1px solid #ccc;
 				}

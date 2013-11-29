@@ -16,10 +16,11 @@
 		@include contact-basic;
 		padding-bottom: 10px;
 		.csc-header{
-			margin-bottom: 24px;
+			margin-bottom: 10px;
 			h2 {
 				display: block;
 				font-size: 1.2em;
+				padding-top: 10px;	
 				font-weight: bold;
 				text-align: center;
 				border-bottom: 1px solid #ccc;

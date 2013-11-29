@@ -61,6 +61,9 @@ $('./body') {
 					}
 				}
 			}
+			$('.//div[@id="sidebar"]'){
+				add_class('info-contact')
+			}
 		}
 	}
 }	

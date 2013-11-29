@@ -76,6 +76,7 @@ $('./body') {
 				
 			}
 			$('.//div[@id="sidebar"]'){
+				add_class('info-contact')
 				$('./div[@class="submenu-block"]'){
 					$('./ul'){
 						$('./li[position()=7]'){

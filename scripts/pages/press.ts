@@ -1,4 +1,5 @@
 $('./body') {
+	add_class('mw_press')
 	$('./div[@id="wrapper"]'){
 		$('.//div[@id="main"]'){
 			$('.//div[@id="content"]'){
@@ -10,6 +11,9 @@ $('./body') {
 					}
 				}
 				
+			}
+			$('.//div[@id="sidebar"]'){
+				add_class('info-contact')
 			}
 		}
 	}

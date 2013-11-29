@@ -167,37 +167,38 @@
 			
 			}
 		}
-	}	
-	#sidebar{
-		background: white;
-		margin: 2%;
-		padding: 1%;
-		h2{
-			font-size: 17px;
-			line-height: 1em;
-			padding: 2px 0 0 0;
-			margin: 5px 0 5px 0;
-			font-weight: normal;
-			color: #545454 !important;
-		}
-		ul{
-			margin: 0px;
-			padding: 0px;
-			li{
-				padding  : 5px 0px;
-				a{
-					color:$color1;
-					font-weight:bold;
-					font-size:$font_size;
-					text-decoration:underline;
-					
+	}
+}	
+.info-contact{
+	background: white;
+	margin: 2%;
+	padding: 1%;
+	h2{
+		font-size: 17px;
+		line-height: 1em;
+		padding: 2px 0 0 0;
+		margin: 5px 0 5px 0;
+		font-weight: normal;
+		color: #545454 !important;
+	}
+	ul{
+		margin: 0px;
+		padding: 0px;
+		li{
+			padding  : 5px 0px;
+			a{
+				color:$color1;
+				font-weight:bold;
+				font-size:$font_size;
+				text-decoration:underline;
 				
-				}
 			
 			}
-			
 		
 		}
+		
 	
 	}
+	
 }
+
