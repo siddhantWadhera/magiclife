@@ -12,11 +12,13 @@
 		font: inherit;
 		vertical-align: baseline;*/
 		@include contact-basic;
-		
+		padding-bottom: 10px;
 			.csc-header{
 				h3{
 					font-size: $h2_size;
 					font: inherit;
+					text-align: center;
+					border-bottom: 1px solid #ccc;
 				}
 			}
 			.tx-wecstaffdirectory-pi1{
@@ -35,6 +37,7 @@
 							//display: block;
 							float: left;
 							//width: 25%;
+							padding-left: 10px;
 						}
 						.rightColumn{
 							//display: block;

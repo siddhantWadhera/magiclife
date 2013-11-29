@@ -2,7 +2,7 @@
 	@include footer;
 	  width: auto;
 	  padding: 14px 10px;
-	  height: 72px;
+	 // height: 72px;
 	  font-weight: normal;
 	  margin-top: 2%;
 	  div .container-holder{
@@ -24,8 +24,10 @@
 					}
 				}
 				.copy{
-					float: left;
-					margin-left: 40%;
+					//float: left;
+					//margin-left: 40%;
+					display:block;
+					
 				}
 				.logo {
 					display: inline;
