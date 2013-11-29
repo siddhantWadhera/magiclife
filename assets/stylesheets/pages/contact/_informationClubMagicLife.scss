@@ -44,7 +44,7 @@
 					select{
 						width:auto;
 						font-size:9pt;
-						width: 83%;
+						width: 83% !important;
 						padding: 5px;
 						border-radius: 5px 5px 5px 5px;
 						border: 1px solid #d3c7a7;						
@@ -76,7 +76,7 @@
 						color: #545454;
 						margin: 0;
 						padding: 5px 8px 12px 5px;
-						width: 83%;
+						width: 83% !important;
 						height: 136px;
 						resize: none;
 						border-radius: 5px 5px 5px 5px;

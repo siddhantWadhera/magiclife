@@ -46,7 +46,7 @@
 					select{
 						width:auto;
 						font-size:8.5pt;
-						width: 83%;
+						width: 83% !important;
 						padding: 5px;
 						border-radius: 5px 5px 5px 5px;
 						border: 1px solid #d3c7a7;						
@@ -71,7 +71,7 @@
 						border-radius: 5px 5px 5px 5px;
 						border: 1px solid #d3c7a7;
 						-webkit-box-shadow: inset 0 0 5px #ececec;
-						width: 83%;
+						width: 83% !important;
 						//@extend .text-input;
 					}
 					textarea.textarea-380{
@@ -80,7 +80,7 @@
 						color: #545454;
 						margin: 0;
 						padding: 5px 8px 12px 5px;
-						width: 83%;
+						width: 83% !important;
 						height: 136px;
 						resize: none;
 						border-radius: 5px 5px 5px 5px;
